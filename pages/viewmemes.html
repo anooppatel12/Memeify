@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Page</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!--boxicons link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--remixicons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        background: linear-gradient(
+          245.59deg,
+          #4d9558 0%,
+          #38703d 28.53%,
+          #133917 75.52%
+        );
+      }
+    </style>
+    <header style="position: relative">
+      <a href="#" class="logo"
+        ><img src="../assets/images/logo.png" id="logo-img"
+      /></a>
+      <ul class="navlist" id="navlist">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="chooseMeme.html">Generate</a></li>
+        <li><a href="viewmemes.html">View Your Work</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <h1 id="view-meme-text">Your Creations:</h1>
+    <section class="view-meme-hero">
+      <div class="view-meme-hero-text">
+        <h1>It's Empty Here :-(</h1>
+        <p>
+          Ahh F ! It Looks Like You haven't made any Memes Yet!
+          <br />
+          Great Things are always waiting to start.
+        </p>
+
+        <a href="chooseMeme.html" class="ctaa"
+          ><i class="ri-play-fill"></i>Generate Meme Now</a
+        >
+      </div>
+      <div class="view-meme-hero-img">
+        <img src="../assets/images/empty.webp" alt="landing-page image" />
+      </div>
+    </section>
+    <div id="memes-list"></div>
+    <script src="../assets/js/scripts.js"></script>
+  </body>
+</html>

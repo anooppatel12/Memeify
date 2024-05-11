@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="data:;base64,iVBORw0KGgo=" />
+    <!--boxicons link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--remixicons-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img src="../assets/images/logo.png" id="logo-img"
+      /></a>
+      <ul class="navlist" id="navlist">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="chooseMeme.html">Generate</a></li>
+        <li><a href="viewmemes.html">View Your Work</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section id="meme-gen-section">
+      <div id="meme-container">
+        <img id="meme-image" src="" alt="Meme" />
+        <form id="text-form">
+          <div id="text-boxes"></div>
+          <button id="meme-gen-submit-btn" class="meme-gen-btn" type="submit">
+            Generate Meme
+          </button>
+          <button class="meme-gen-btn" id="save-button">Save Meme</button>
+          <button class="meme-gen-btn" id="view-work-button">
+            View Your Work
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="../assets/js/scripts.js"></script>
+  </body>
+</html>
